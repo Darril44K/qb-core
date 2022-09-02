@@ -517,5 +517,5 @@ QBShared.Items = {
 	['sucre_en_poudre'] 			 = {['name'] = 'sucre_en_poudre', 			  	['label'] = 'Sucre en poudre',	 		['weight'] = 250, 		['type'] = 'item', 		['image'] = 'sucre_en_poudre.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ""},
 
 	-- qb-sna-advrace
-	['racetablet'] 			 		= {['name'] = 'racetablet', 			  		['label'] = 'Race tablet',	 			['weight'] = 500, 		['type'] = 'item', 		['image'] = 'racetablet.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ""},
+	['racetablet'] 			 		= {['name'] = 'racetablet', 			  		['label'] = 'Race tablet',	 			['weight'] = 500, 		['type'] = 'item', 		['image'] = 'tablet.png', 					['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ""},
 }
