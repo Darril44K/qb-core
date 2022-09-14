@@ -171,48 +171,40 @@ QBShared.Jobs = {
 		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
-            ['0'] = {
-                name = 'Secret Service',
-                payment = 650
-            },
-			['1'] = {
-                name = 'US Marshals',
-                payment = 650
-            },
-            ['3'] = {
+            ['1'] = {
                 name = 'Avocat',
                 payment = 2000
             },
-			['4'] = {
+			['2'] = {
                 name = 'Juge',
                 payment = 2500
             },
-			['5'] = {
+			['3'] = {
                 name = 'Procureur',
                 payment = 2500
             },
-            ['6'] = {
+            ['4'] = {
                 name = 'Ministre du Travail',
                 payment = 3000
             },
-			['7'] = {
+			['5'] = {
                 name = 'Ministre des Finances',
                 payment = 3000
             },
-			['8'] = {
+			['6'] = {
                 name = 'Ministre de la Justice',
                 payment = 3000
             },
-            ['9'] = {
+            ['7'] = {
                 name = 'Ministre de la Santé',
                 payment = 3000
             },
-			['10'] = {
+			['8'] = {
                 name = 'Vice-Gouverneur',
                 isboss = true,
                 payment = 4000
             },
-			['11'] = {
+			['9'] = {
                 name = 'Gouverneur',
                 isboss = true,
                 payment = 5000
@@ -435,30 +427,6 @@ QBShared.Jobs = {
             },
 			['4'] = {
                 name = "CEO",
-				isboss = true,
-                payment = 1250
-            },
-        },
-	},
-    ["tsubakisushi"] = {                        --Change Add
-		label = "Tsubaki Sushi",
-		defaultDuty = false,
-        offDutyPay = false,
-		grades = {
-			['0'] = {
-                name = "Haitatsunin",
-                payment = 500
-            },
-			['1'] = {
-                name = "Urite",
-                payment = 750
-            },
-			['2'] = {
-                name = "Fuku shochō",
-                payment = 1000
-            },
-			['3'] = {
-                name = "Kantoku",
 				isboss = true,
                 payment = 1250
             },
