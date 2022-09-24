@@ -482,4 +482,29 @@ QBShared.Jobs = {
             },
         },
 	},
+    ["pdm"] = {                             --Change Add
+		label = "Premium Deluxe Motorsport",
+		defaultDuty = false,
+        offDutyPay = false,
+		grades = {
+			['1'] = {
+                name = "En test",
+                payment = 250
+            },
+			['2'] = {
+                name = "Employé",
+                payment = 500
+            },
+			['3'] = {
+                name = "Co-Patron",
+				isboss = true,
+                payment = 750
+            },
+			['4'] = {
+                name = "Patron",
+				isboss = true,
+                payment = 1000
+            },
+        },
+	},
 }
