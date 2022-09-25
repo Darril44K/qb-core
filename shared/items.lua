@@ -507,4 +507,12 @@ QBShared.Items = {
 	['hunting_license'] 			 = {['name'] = 'hunting_license',				['label'] = 'Permis de chasse',				['weight'] = 0,			['type'] = 'item',		['image'] = 'weapon_license.png',		['unique'] = true,		['useable'] = true,		['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 	['gouvernementpass'] 			 = {['name'] = 'gouvernementpass', 			 	['label'] = 'Pass gouvernement', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'lawyerpass.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 	['policepass'] 					 = {['name'] = 'policepass', 			 	  	['label'] = 'Pass police', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'lawyerpass.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	
+	-- vdream-coke
+	['coke'] 					 	 = {['name'] = 'coke', 			 	  	  		['label'] = 'Cocaïne', 						['weight'] = 50, 		['type'] = 'item', 		['image'] = 'coke.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['coke_leaf'] 		 		 	 = {['name'] = 'coke_leaf',						['label'] = 'Feuille de cocaïne',			['weight'] = 100,		['type'] = 'item',		['image'] = 'coke_leaf.png',			['unique'] = false,		['useable'] = false,	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+
+	-- vdream-weed
+	['weed'] 					 	 = {['name'] = 'weed', 			 	  	  		['label'] = 'Weed', 						['weight'] = 50, 		['type'] = 'item', 		['image'] = 'weed.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['weed_leaf'] 		 			 = {['name'] = 'weed_leaf',						['label'] = 'Feuille de weed',				['weight'] = 100,		['type'] = 'item',		['image'] = 'weed_leaf.png',			['unique'] = false,		['useable'] = false,	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 }
