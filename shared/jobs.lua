@@ -8,6 +8,17 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Freelancer',
+                payment = 500
+            },
+        },
+	},
+    ['unemployed'] = {
+		label = 'Chantier',
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Travailleur',
                 payment = 150
             },
         },
