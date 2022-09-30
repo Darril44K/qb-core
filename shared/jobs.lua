@@ -144,15 +144,18 @@ QBShared.Jobs = {
             },
             ['7'] = {
                 name = 'Commissaire Assistant',
-                payment = 650
+                payment = 650,
+                isboss = true,
             },
 			['8'] = {
                 name = 'Commissaire Adjoint',
-                payment = 800
+                payment = 800,
+                isboss = true,
             },
             ['9'] = {
                 name = 'Commissaire',
-                payment = 800
+                payment = 800,
+                isboss = true,
             },
         },
 	},
