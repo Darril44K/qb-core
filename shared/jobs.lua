@@ -12,7 +12,7 @@ QBShared.Jobs = {
             },
         },
 	},
-    ['unemployed'] = {
+    ['builder'] = {
 		label = 'Chantier',
 		defaultDuty = false,
 		offDutyPay = false,
@@ -106,6 +106,104 @@ QBShared.Jobs = {
                 name = 'Chief',
 				isboss = true,
                 payment = 2500
+            },
+        },
+	},
+	['sahp'] = {
+		label = 'San Andreas Highway Patrol',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = {
+                name = 'Élève Officer',
+                payment = 250
+            },
+			['1'] = {
+                name = 'Officier',
+                payment = 450
+            },
+			['2'] = {
+                name = 'Sergent',
+                payment = 450
+            },
+			['3'] = {
+                name = 'Lieutenant',
+                payment = 450
+            },
+			['4'] = {
+                name = 'Capitaine',
+                payment = 450
+            },
+            ['5'] = {
+                name = 'Chef Adjoint',
+                payment = 650
+            },
+            ['6'] = {
+                name = 'Chef',
+                payment = 650
+            },
+            ['7'] = {
+                name = 'Commissaire Assistant',
+                payment = 650
+            },
+			['8'] = {
+                name = 'Commissaire Adjoint',
+                payment = 800
+            },
+            ['9'] = {
+                name = 'Commissaire',
+                payment = 800
+            },
+        },
+	},
+	['bcso'] = {
+		label = 'Blaine County Sheriff\'s Office',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = {
+                name = 'Cadet',
+                payment = 250
+            },
+			['1'] = {
+                name = 'Solo Cadet',
+                payment = 350
+            },
+			['2'] = {
+                name = 'Deputy',
+                payment = 450
+            },
+			['3'] = {
+                name = 'Deputy Adjoint',
+                payment = 450
+            },
+			['4'] = {
+                name = 'Caporal',
+                payment = 450
+            },
+            ['5'] = {
+                name = 'Sergent I',
+                payment = 500
+            },
+            ['6'] = {
+                name = 'Sergent II',
+                payment = 550
+            },
+            ['7'] = {
+                name = 'Lieutenant',
+                payment = 600
+            },
+			['8'] = {
+                name = 'Capitaine',
+                payment = 700
+            },
+            ['9'] = {
+                name = 'Shérif Adjoint',
+                payment = 800
+            },
+            ['10'] = {
+                name = 'Shérif',
+                payment = 1000
             },
         },
 	},
