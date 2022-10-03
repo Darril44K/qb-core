@@ -518,7 +518,7 @@ QBShared.Jobs = {
         },
 	},
     ["burgershot"] = {                          --Change Add
-		label = "Burgershot Employee",
+		label = "Burger Shot",
 		defaultDuty = false,
 		grades = {
             ['0'] = {
