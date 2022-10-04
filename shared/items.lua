@@ -270,7 +270,6 @@ QBShared.Items = {
 	['coke_brick'] 		 			 = {['name'] = 'coke_brick', 					['label'] = 'Brique de Coke', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'coke_brick.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ""},
 	['coke_small_brick'] 		 	 = {['name'] = 'coke_small_brick', 				['label'] = 'Paquet de coke', 				['weight'] = 350, 		['type'] = 'item', 		['image'] = 'coke_small_brick.png', 	['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ""},
 	['oxy'] 				 		 = {['name'] = 'oxy',				    		['label'] = 'Prescription d\'Oxy',			['weight'] = 0,			['type'] = 'item',		['image'] = 'oxy.png',					['unique'] = false,		['useable'] = true,		['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ""},
-	['meth'] 					 	 = {['name'] = 'meth', 							['label'] = 'Meth', 						['weight'] = 100, 		['type'] = 'item', 		['image'] = 'meth_baggy.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ""},
 	['rolling_paper'] 			 	 = {['name'] = 'rolling_paper', 			  	['label'] = 'Papier à rouler', 				['weight'] = 0, 		['type'] = 'item', 		['image'] = 'rolling_paper.png', 		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = {accept = {'weed_white-widow', 'weed_skunk', 'weed_purple-haze', 'weed_og-kush', 'weed_amnesia', 'weed_ak47'}, reward = 'joint', anim = {['dict'] = 'anim@amb@business@weed@weed_inspecting_high_dry@', ['lib'] = 'weed_inspecting_high_base_inspector', ['text'] = 'Rolling joint', ['timeOut'] = 5000,}},   ['description'] = ""},
 
 	-- Seed And Weed
@@ -501,14 +500,18 @@ QBShared.Items = {
 	['hunting_license'] 			 = {['name'] = 'hunting_license',				['label'] = 'Permis de chasse',				['weight'] = 0,			['type'] = 'item',		['image'] = 'weapon_license.png',		['unique'] = true,		['useable'] = true,		['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 	['gouvernementpass'] 			 = {['name'] = 'gouvernementpass', 			 	['label'] = 'Pass gouvernement', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'lawyerpass.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 	['policepass'] 					 = {['name'] = 'policepass', 			 	  	['label'] = 'Pass police', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'lawyerpass.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
-	
+
 	-- vdream-coke
-	['coke'] 					 	 = {['name'] = 'coke', 			 	  	  		['label'] = 'Cocaïne', 						['weight'] = 50, 		['type'] = 'item', 		['image'] = 'coke.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
-	['coke_leaf'] 		 		 	 = {['name'] = 'coke_leaf',						['label'] = 'Feuille de cocaïne',			['weight'] = 100,		['type'] = 'item',		['image'] = 'coke_leaf.png',			['unique'] = false,		['useable'] = false,	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['coke'] 					 	 = {['name'] = 'coke', 			 	  	  		['label'] = 'Cocaïne', 						['weight'] = 5, 		['type'] = 'item', 		['image'] = 'coke.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['coke_baggy'] 		 		 	 = {['name'] = 'coke_baggy',					['label'] = 'Sachet de cocaïne',			['weight'] = 25,		['type'] = 'item',		['image'] = 'coke_baggy.png',			['unique'] = false,		['useable'] = true,	    ['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+
+	-- vdream-meth
+	['meth'] 		 		 	     = {['name'] = 'meth',					        ['label'] = 'Meth',			                ['weight'] = 50,		['type'] = 'item',		['image'] = 'coke_baggy.png',			['unique'] = false,		['useable'] = true,	    ['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+    ['liquidmix'] 					 = {['name'] = 'liquidmix', 			 	  	['label'] = 'Mix de liquide', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'coke.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 
 	-- vdream-weed
-	['weed'] 					 	 = {['name'] = 'weed', 			 	  	  		['label'] = 'Weed', 						['weight'] = 50, 		['type'] = 'item', 		['image'] = 'weed.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
-	['weed_leaf'] 		 			 = {['name'] = 'weed_leaf',						['label'] = 'Feuille de weed',				['weight'] = 100,		['type'] = 'item',		['image'] = 'weed_leaf.png',			['unique'] = false,		['useable'] = false,	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['weed'] 		 		 	     = {['name'] = 'weed',					        ['label'] = 'Weed',			                ['weight'] = 200,		['type'] = 'item',		['image'] = 'coke_baggy.png',			['unique'] = false,		['useable'] = true,	    ['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['weed_leaf'] 					 = {['name'] = 'weed_leaf', 			 	  	['label'] = 'Feuille de weed', 				['weight'] = 50, 		['type'] = 'item', 		['image'] = 'coke.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 
 	-- vdream-burgershot
 	['bs_the-heart-stopper'] 		 = {['name'] = 'bs_the-heart-stopper', 			['label'] = 'Burger arrêt cardiaque', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'bs_the-heart-stopper.png', ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
