@@ -510,8 +510,8 @@ QBShared.Items = {
     ['liquidmix'] 					 = {['name'] = 'liquidmix', 			 	  	['label'] = 'Mix de liquide', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'coke.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 
 	-- vdream-weed
-	['weed'] 		 		 	     = {['name'] = 'weed',					        ['label'] = 'Weed',			                ['weight'] = 200,		['type'] = 'item',		['image'] = 'coke_baggy.png',			['unique'] = false,		['useable'] = true,	    ['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
-	['weed_leaf'] 					 = {['name'] = 'weed_leaf', 			 	  	['label'] = 'Feuille de weed', 				['weight'] = 50, 		['type'] = 'item', 		['image'] = 'coke.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['weed'] 		 		 	     = {['name'] = 'weed',					        ['label'] = 'Weed',			                ['weight'] = 200,		['type'] = 'item',		['image'] = 'weed.png',			        ['unique'] = false,		['useable'] = true,	    ['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['weed_leaf'] 					 = {['name'] = 'weed_leaf', 			 	  	['label'] = 'Feuille de weed', 				['weight'] = 50, 		['type'] = 'item', 		['image'] = 'weed_leaf.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 
 	-- vdream-burgershot
 	['bs_the-heart-stopper'] 		 = {['name'] = 'bs_the-heart-stopper', 			['label'] = 'Burger arrêt cardiaque', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'bs_the-heart-stopper.png', ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
