@@ -116,40 +116,6 @@ QBShared.Gangs = {
             },
         },
 	},
-    ['tgk'] = {
-		label = 'Taganskaïs',
-		grades = {
-            ['0'] = {
-                name = 'Taganskaïs',
-            },
-			['1'] = {
-                name = 'Ryadovoï I',
-            },
-			['2'] = {
-                name = 'Ryadovoï II',
-            },
-            ['3'] = {
-                name = 'Ryadovoï III',
-            },
-            ['4'] = {
-                name = 'Caporal I',
-            },
-            ['5'] = {
-                name = 'Caporal II',
-            },
-            ['6'] = {
-                name = 'Caporal III',
-            },
-            ['7'] = {
-                name = 'Vitse-Issaev',
-				isboss = true
-            },
-			['8'] = {
-                name = 'Issaev',
-				isboss = true
-            },
-        },
-	},
     ['corporation'] = {
 		label = 'Corporation',
 		grades = {
@@ -196,7 +162,6 @@ QBShared.Gangs = {
             },
         },
 	},
-    
     ['madrazo'] = {
 		label = 'Madrazo',
 		grades = {
