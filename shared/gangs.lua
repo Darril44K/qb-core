@@ -172,4 +172,53 @@ QBShared.Gangs = {
             },
         },
 	},
+    ['bloods'] = {
+		label = 'Bloods',
+		grades = {
+            ['0'] = {
+                name = 'Petit du tiek'
+            },
+			['1'] = {
+                name = 'Gangsta'
+            },
+			['2'] = {
+                name = 'Blood'
+            },
+			['3'] = {
+                name = 'Grand du tiek',
+            },
+            ['4'] = {
+                name = 'Tete du réseau',
+            },
+            ['5'] = {
+                name = 'OG',
+				isboss = true
+            },
+        },
+	},
+    
+    ['madrazo'] = {
+		label = 'Madrazo',
+		grades = {
+            ['0'] = {
+                name = 'Sicario'
+            },
+			['1'] = {
+                name = 'Commandante'
+            },
+			['2'] = {
+                name = 'Soldado'
+            },
+			['3'] = {
+                name = 'Segundo',
+            },
+            ['4'] = {
+                name = 'Bras Droit',
+            },
+            ['5'] = {
+                name = 'Jefe',
+				isboss = true
+            },
+        },
+	},
 }
