@@ -508,6 +508,7 @@ QBShared.Items = {
 	-- vdream-meth
 	['meth'] 		 		 	     = {['name'] = 'meth',					        ['label'] = 'Meth',			                ['weight'] = 50,		['type'] = 'item',		['image'] = 'coke_baggy.png',			['unique'] = false,		['useable'] = true,	    ['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
     ['liquidmix'] 					 = {['name'] = 'liquidmix', 			 	  	['label'] = 'Mix de liquide', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'coke.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
+	['meth_baggy'] 					 = {['name'] = 'meth_baggy', 			 	  	['label'] = 'Sachet de Meth', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'meth_baggy.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
 
 	-- vdream-weed
 	['weed'] 		 		 	     = {['name'] = 'weed',					        ['label'] = 'Weed',			                ['weight'] = 200,		['type'] = 'item',		['image'] = 'weed.png',			        ['unique'] = false,		['useable'] = true,	    ['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = ""},
